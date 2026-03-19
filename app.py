@@ -10,6 +10,6 @@ type_of_customer = st.selectbox("Type of customer", ["Individual", "Legal Entity
 save = st.button("Save")
 
 if save:
-    with open("customers_data_base.csv", "a", encoding="utf-8") as file:
+    with open("customers_database.csv", "a", encoding="utf-8") as file:
         file.write(f"{name},{address},{birth_date},{type_of_customer}\n")
         st.success("Customer saved successfully!")
