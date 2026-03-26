@@ -1,1 +1,1 @@
-# Management Custumer with PYTHON
+# Management Customers with PYTHON
